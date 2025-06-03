@@ -1,0 +1,84 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background: #fff;
+  color: #6d5f52;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.form-group label {
+  width: 140px;
+  margin-right: 10px;
+  color: #6d5f52;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+  flex: 1;
+  padding: 8px;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-group input[type="radio"] {
+  margin: 0 5px;
+}
+
+.required {
+  color: red;
+}
+
+.gender-options {
+  display: flex;
+  align-items: center;
+}
+
+.tel-inputs input {
+  width: 100px;
+  margin-right: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.submit-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.submit-btn button {
+  background-color: #6d5f52;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
