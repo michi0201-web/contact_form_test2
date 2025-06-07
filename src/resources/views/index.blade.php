@@ -65,11 +65,13 @@
       <label>電話番号 <span class="required">※</span></label>
        <div class="tel-inputs">
        <input type="text" name="tel1" placeholder="080" value="{{ old('tel1') }}">
+       -
         @error('tel1')
         <div class="form__error">{{ $message }}</div>
         @enderror
 
       <input type="text" name="tel2" placeholder="1234" value="{{ old('tel2') }}">
+      -
         @error('tel2')
         <div class="form__error">{{ $message }}</div>
         @enderror

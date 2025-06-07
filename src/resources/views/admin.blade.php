@@ -21,11 +21,15 @@
                 <option value="">性別</option>
                 <option value="male">男性</option>
                 <option value="female">女性</option>
+                <option value="same">その他</option>
             </select>
             <select>
                 <option value="">お問い合わせの種類</option>
-                <option value="exchange">商品の交換について</option>
-                <option value="refund">返品について</option>
+                <option value="exchange">商品のお届けについて</option>
+                <option value="refund">商品の交換について</option>
+                <option value="">商品トラブル</option>
+                <option value="">ショップへのお問い合わせ</option>
+                <option value="">その他</option>
             </select>
             <input type="date">
             <button>検索</button>
